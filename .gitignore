@@ -128,11 +128,9 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
-# virtual enviroment
-venv/
-
 # vscode stuff
 .vscode/
 
 # project files
-Companies
+Storage
+.idea/
