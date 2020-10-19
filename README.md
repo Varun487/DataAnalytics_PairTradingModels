@@ -15,7 +15,7 @@
 
 ## Collection
 
-#### Completed
+#### STATUS - Completed
 
 Describes the data collected and the scripts used to collect it.
 
@@ -25,7 +25,7 @@ Contains 2 scripts
 
 ## Preprocessing
 
-#### Yet to be completed
+#### STATUS - Yet to be completed
 
 1. Handling Missing Data - Dropping the rows of the datasets which are missing data we can afford to do this due to a large amount of data and interpolation may lead to inaccurate data due to the volatility of some stocks.
 2. Deleting datasets which have < 2 months worth of data.
@@ -34,21 +34,19 @@ Contains 2 scripts
 5. Create Bollinger Bands for all stocks - Calculate the 20 Day Moving Average for all companies closing prices allong with the 1, 2, 3 standard deviation prices above and below the company.
 6. Creating an interactive visualization for all stocks to see the bollinger bands and stock price data.
 7. Create Pairs, calculate correlations, do multiple cointegration tests on the stocks to ensure that the pairs are truly correlated.
-8. Do visualization of the pairs and their volumes and ensure that they visually move in tandem.
-10. After Decision tree model is trained, then  it took.
 
 ## Models
 
-#### Yet to be completed
+#### STATUS - Yet to be completed
 
-Currently 2 Main models may add more after finding more insight from data
+Currently 2 models, may add more if time permits and after finding more insight from data
 1. To calculate spreads, use regression to find the optimal ratio(R) between the pair in the equation `A - R.B = W` where W the Spread must be 0 to ensure the stocks are mean reverting and stationery and A and B are Moving averages of the stock prices of the pair.
 2. Visualization of the mean reverting spreads of the moving averages of the pair.
 3. Using Spreads, we make a decision tree which decides to *BUY*, *SELL*, or *FLAT* a stock.
-4. visualize the various BUY/SELL/FLAT decisions of the Decision tree
+4. visualize the various *BUY*/*SELL*/*FLAT* decisions of the Decision tree
 
 ## Back tester
 
-#### Yet to be completed
+#### STATUS - Yet to be completed
 
 Goes through all the orders made by the decision tree and calculates profit, loss, p&l ratio, Sharpe ratio, etc.. and provides suitable data analysis and visualizations
