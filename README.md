@@ -34,6 +34,7 @@ Contains 2 scripts
 5. Create Bollinger Bands for all stocks - Calculate the 20 Day Moving Average for all companies closing prices allong with the 1, 2, 3 standard deviation prices above and below the company.
 6. Creating an interactive visualization for all stocks to see the bollinger bands and stock price data.
 7. Create Pairs, calculate correlations, do multiple cointegration tests on the stocks to ensure that the pairs are truly correlated.
+8. Create appropriate visualization for the pairs and ensure that they move in tandem visually.
 
 ## Models
 
@@ -43,7 +44,7 @@ Currently 2 models, may add more if time permits and after finding more insight 
 1. To calculate spreads, use regression to find the optimal ratio(R) between the pair in the equation `A - R.B = W` where W the Spread must be 0 to ensure the stocks are mean reverting and stationery and A and B are Moving averages of the stock prices of the pair.
 2. Visualization of the mean reverting spreads of the moving averages of the pair.
 3. Using Spreads, we make a decision tree which decides to *BUY*, *SELL*, or *FLAT* a stock.
-4. visualize the various *BUY*/*SELL*/*FLAT* decisions of the Decision tree
+4. visualize the various *BUY*/*SELL*/*FLAT* decisions of the Decision tree.
 
 ## Back tester
 
