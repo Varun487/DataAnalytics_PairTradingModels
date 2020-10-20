@@ -25,7 +25,9 @@ Contains 2 scripts
 
 ## Preprocessing
 
-#### STATUS - Yet to be completed
+#### STATUS - 
+#### Completed = 1,2,3,4,5
+#### Yet to be completed = 6,7,8
 
 1. Handling Missing Data - Dropping the rows of the datasets which are missing data we can afford to do this due to a large amount of data and interpolation may lead to inaccurate data due to the volatility of some stocks.
 2. Deleting datasets which have < 2 months worth of data.
