@@ -27,7 +27,7 @@ Contains 2 scripts
 
 ###### Clean data + Find 5 top stock pairs (2 pairs per sector) of the stock market to trade and perform correlation and co-integration testing.
 
-#### STATUS - Completed for 0/5 pairs
+#### STATUS - Completed for 1/5 pairs
 
 1. Handling Missing Data - Dropping the rows of the datasets which are missing data we can afford to do this due to a large amount of data and interpolation may lead to inaccurate data due to the volatility of some stocks.
 2. Deleting datasets which have < 3 years worth of data.
