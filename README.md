@@ -25,9 +25,9 @@ Contains 2 scripts
 
 ## Preprocessing
 
-###### Clean data + Find 5 top stock pairs (2 pairs per sector) of the stock market to trade and perform correlation and co-integration testing.
+###### Clean data + Find 4 top stock pairs (2 pairs per sector) of the stock market to trade and perform correlation and co-integration testing.
 
-#### STATUS - Completed for 1/5 pairs
+#### STATUS - Completed for 1/4 pairs
 
 1. Handling Missing Data - Dropping the rows of the datasets which are missing data we can afford to do this due to a large amount of data and interpolation may lead to inaccurate data due to the volatility of some stocks.
 2. Deleting datasets which have < 3 years worth of data.
@@ -36,14 +36,14 @@ Contains 2 scripts
 5. Choose and find 10 stock pairs and the periods in which they are highly correlated and co-integrated.
 6. Create Bollinger Bands for chosen stocks to help aid visualization - Calculate the 20 Day Moving Average for all companies closing prices along with the 1, 2, 3 standard deviation prices above and below the share price.
 7. Show that visually the shares in a particular pair move in tandem.
-8. Perform pair trading and generate orders for these 5 stock pairs according to z-score.
+8. Perform pair trading and generate orders for all pairs according to z-score.
 9. Also add appropriate visualizations to the creation of orders.
 
 ## Models
 
 ###### Create ML models for all chosen stocks and predict values for the decided prediction week for each pair
 
-#### STATUS - Completed for 0/5 pairs
+#### STATUS - Completed for 0/4 pairs
 
 1. Decide the week of prediction for all pairs.
 2. For each stock, generate 4 models
@@ -58,7 +58,7 @@ Contains 2 scripts
 
 ###### Calculate returns given trading parameters, orders and real data for week and predicted data from models. Helps to evaluate different models and give the best model per stock.
 
-#### STATUS - Completed for 0/5 pairs
+#### STATUS - Completed for 0/4 pairs
 
 1. Decide capital, risk, rules for opening and closing a trade and other parameters for trading and trading style.
 2. Run the orders on all stocks real data for prediction week and models' predicted data.
