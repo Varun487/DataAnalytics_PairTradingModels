@@ -27,7 +27,7 @@ Contains 2 scripts
 
 ###### Clean data + Find 4 top stock pairs (2 pairs per sector) of the stock market to trade and perform correlation and co-integration testing.
 
-#### STATUS - Completed for 1/4 pairs
+#### STATUS - Completed for 4/4 pairs
 
 1. Handling Missing Data - Dropping the rows of the datasets which are missing data we can afford to do this due to a large amount of data and interpolation may lead to inaccurate data due to the volatility of some stocks.
 2. Deleting datasets which have < 3 years worth of data.
@@ -43,13 +43,12 @@ Contains 2 scripts
 
 ###### Create ML models for all chosen stocks and predict values for the decided prediction week for each pair
 
-#### STATUS - Completed for 0/4 pairs
+#### STATUS - Completed for 4/4 pairs
 
 1. Decide the week of prediction for all pairs.
 2. For each stock, generate 4 models
     * Linear Regression
     * ARIMA
-    * SARIMA
     * LSTM
 3. For each model try to adjust it's parameters and training data for it to best fit the actual data of the test week for the stock pair.
 4. Get predictions for all stocks and all models per stocks.
@@ -58,7 +57,7 @@ Contains 2 scripts
 
 ###### Calculate returns given trading parameters, orders and real data for week and predicted data from models. Helps to evaluate different models and give the best model per stock.
 
-#### STATUS - Completed for 0/4 pairs
+#### STATUS - Completed for 4/4 pairs
 
 1. Decide capital, risk, rules for opening and closing a trade and other parameters for trading and trading style.
 2. Run the orders on all stocks real data for prediction week and models' predicted data.
