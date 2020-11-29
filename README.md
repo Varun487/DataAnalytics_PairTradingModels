@@ -1,6 +1,6 @@
 # Pair Trading Models
 
-## To replicate this repo on your computer
+## To replicate this repo on your computer 
 
 1. Download the storage folder shared to you in google drive.
 2. Create a DA Project folder
