@@ -6,8 +6,8 @@ import pandas as pd
 start = dt.datetime(2000, 1, 1)
 end = dt.datetime(2020, 12, 31)
 
-df_NSE_tickers = pd.read_csv("../Storage/NSE_tickers.csv")
-df_BSE_tickers = pd.read_csv("../Storage/BSE_tickers.csv")
+df_NSE_tickers = pd.read_csv("../Storage1/NSE_tickers.csv")
+df_BSE_tickers = pd.read_csv("../Storage1/BSE_tickers.csv")
 
 df_combined_tickers = pd.concat([df_BSE_tickers, df_NSE_tickers])
 
@@ -25,11 +25,11 @@ for ticker in df_combined_tickers["SYMBOLS"]:
 
         print(f"Collected data for {ticker} from NSE")
 
-        os.mkdir(f'../Storage/Companies/{ticker}')
+        os.mkdir(f'../Storage1/Companies/{ticker}')
 
         print(f"Created directory {ticker}")
 
-        df_NSE.to_csv(f'../Storage/Companies/{ticker}/{ticker}NSE.csv')
+        df_NSE.to_csv(f'../Storage1/Companies/{ticker}/{ticker}NSE.csv')
 
         print(f"Created file {ticker}NSE.csv")
 
@@ -41,14 +41,14 @@ for ticker in df_combined_tickers["SYMBOLS"]:
 
         print(f"Collected data for {ticker} from BSE")
 
-        if os.path.isdir(f'../Storage/Companies/{ticker}'):
+        if os.path.isdir(f'../Storage1/Companies/{ticker}'):
             print(f"{ticker} directory present")
 
         else:
-            os.mkdir(f'../Storage/Companies/{ticker}')
+            os.mkdir(f'../Storage1/Companies/{ticker}')
             print(f"Created directory {ticker}")
 
-        df_BSE.to_csv(f'../Storage/Companies/{ticker}/{ticker}BSE.csv')
+        df_BSE.to_csv(f'../Storage1/Companies/{ticker}/{ticker}BSE.csv')
 
         print(f"Created file {ticker}BSE.csv")
 

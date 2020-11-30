@@ -13,6 +13,6 @@ for symbol in symbols:
     print(symbol)
 
 df = pd.DataFrame(data={'SYMBOLS': symbols[1:]})
-df.to_csv("../Storage/NSE_tickers.csv", index=False)
+df.to_csv("../Storage1/NSE_tickers.csv", index=False)
 
 driver.quit()
