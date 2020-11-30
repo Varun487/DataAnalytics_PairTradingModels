@@ -1,10 +1,23 @@
 # Pair Trading Models
 
+## The repositorty contains
+1. Project Code
+2. Project Final Report
+3. Project Video 
+- You can also see the video at this link if you don't want to download the video - https://drive.google.com/file/d/1X7knh3TF8HyQ44uu_hRR6DeIGgU4mkx2/view
+
+## Project members
+###### All members are from Semester 5 Section E Pes University EC Campus
+1. Varun Seshu - PES2201800074
+2. Hritik Shanbhag - PES2201800082
+3. Manas V Shetty - PES2201800670
+4. Shashwath S Kumar - PES2201800623
+
 ## To replicate this repo on your computer 
 
 1. Download the storage folder shared to you in google drive.
 2. The Storage2 folder is a representative sample of the complete data present.
-2. Create a DA Project folder
+3. Create a DA Project folder
 3. Copy the storage folder as is to the newly created project folder
 3. cd to that folder and run `git init`, this initializes the git repository
 4. run `git remote add origin "https://github.com/Varun487/DataAnalytics_PairTradingModels"`
