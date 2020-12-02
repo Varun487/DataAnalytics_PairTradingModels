@@ -5,7 +5,7 @@
 2. Project Final Report -> 010_487_FinalReport.pdf in Project_Reports folder
 3. Project Video  -> 010_487_VideoPresentation.mp4
     - You can also see the video at this link if you don't want to download the video - https://drive.google.com/file/d/1X7knh3TF8HyQ44uu_hRR6DeIGgU4mkx2/view
-4. Repersentative sample of dataset -> Storage2 folder
+4. Representative sample of dataset -> Storage2 folder
 
 ## Project members
 ###### All members are from Semester 5 Section E Pes University EC Campus
